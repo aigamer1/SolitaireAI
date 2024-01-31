@@ -9,7 +9,7 @@ from Action import Action
 from datetime import datetime
 from game_vals import GameVals
 
-random.seed(datetime.now())
+random.seed(int(datetime.now().timestamp()))
 
 class GameUI:
     time_delay=0.1
